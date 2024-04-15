@@ -1,0 +1,19 @@
+.js-display__txt {
+    display: none;
+}
+
+.js-reverseIcons {
+    flex-direction: row-reverse;
+}
+
+.js-backgroundColor-blue {
+    background-color: blue;
+}
+
+.js-backgroundColor-red {
+    background-color: red;
+}
+
+.js-backgroundColor-green {
+    background-color: green;
+}
