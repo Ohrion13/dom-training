@@ -6,14 +6,15 @@
     flex-direction: row-reverse;
 }
 
-.js-backgroundColor-blue {
+.backgroundColor-blue {
     background-color: blue;
 }
 
-.js-backgroundColor-red {
+.backgroundColor-red {
     background-color: red;
 }
 
-.js-backgroundColor-green {
+.backgroundColor-green {
     background-color: green;
 }
+
