@@ -23,3 +23,10 @@
     
 }
 
+.tab-content-item {
+    display: none;
+}
+
+.active2 {
+    display: block;
+}
