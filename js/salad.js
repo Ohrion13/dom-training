@@ -16,12 +16,19 @@ for (let i = 0; i < ingredients.length; i++) {
     btn.textContent = ingredients[i];
     listItm.appendChild(btn);
 
-    btn.addEventListener('click', function() {
-        
-        const saladFinal = document.createElement('li');
-        saladFinal.textContent = ingredients[i];
+    btn.addEventListener('click', function () {
 
-        salad.appendChild(saladFinal);
+        if (count.textContent > 4) return;
+
+        {
+            const saladFinal = document.createElement('li');
+            saladFinal.textContent = ingredients[i];
+
+            salad.appendChild(saladFinal);
+
+            count.textContent = parseInt(count.textContent) + 1;
+
+        }
 
     });
 
